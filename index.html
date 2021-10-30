@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Render All Element Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Média Queries -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- Défault Color Théme -->
+    <link rel="stylesheet" href="css/default_color_theme.css">
+    <!-- Animate Css WoW -->
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <!-- Start Section Tool Box --> 
+    <section class="option-box">
+        <div class="color-option">
+            <h4>Color Option</h4>
+            <ul class="list-unstyled">
+                <li data-value="css/default_color_theme.css"></li>
+                <li data-value="css/purple_theme.css"></li>
+                <li data-value="css/blue_theme.css"></li>
+                <li data-value="css/yellow_theme.css"></li>
+            </ul>
+        </div><!-- End Color Box -->
+        <i class="fas fa-cogs fa-2x gear-check"></i>
+    </section>
+    <!--End Section Tool Box-->
+    <!--Start Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Saif
+              <span>Abidi</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#OurNavbar" aria-controls="OurNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="OurNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Web Designer</a></li>
+                        <li><a class="dropdown-item" href="#">Web Developpment</a></li>
+                        <li><a class="dropdown-item" href="#">Seo</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul><!--End ul-->
+          </div><!--End collapse-->
+        </div><!--End Container-->
+    </nav><!--End Nav-->
+    <!--End Navbar-->
+    <!-- Start Carousel -->
+    <div id="MySlide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#MySlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#MySlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#MySlide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#MySlide" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        </div><!-- End carousel-indicators -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Carousel1/01.jpg" class="d-block w-100" alt="Macbook">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+            </div><!-- End carousel-item -->
+            <div class="carousel-item">
+                <img src="images/Carousel1/02.jpg" class="d-block w-100" alt="Macbook">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+            </div><!-- End carousel-item -->
+            <div class="carousel-item">
+                <img src="images/Carousel1/03.jpg" class="d-block w-100" alt="Macbook">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+            </div><!-- End carousel-item -->
+            <div class="carousel-item">
+                <img src="images/Carousel1/04.jpg" class="d-block w-100" alt="Macbook">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+            </div><!-- End carousel-item -->
+        </div><!-- End carousel-inner -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#MySlide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#MySlide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div><!--End Div Carousel-->
+    <!--End Carousel-->
+    <!--Start Section About-->
+    <section class="about text-center wow flash" data-wow-duration="3s" data-wow-delay="2s">
+        <div class="container">
+            <h1>Meet Our New Template <span>Saif Abidi</span></h1>
+            <p class="lead">Hello Let Me Introduce Our Template Saif Abidi Created With <strong>Bootstrap</strong> 5.1.0</p>          
+        </div>
+    </section>
+    <!--End Section About-->
+    <!--Start Section Features-->
+    <section class="Features text-center">
+        <div class="container">
+            <h2> Our Features</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="feat">
+                        <i class="fas fa-search"></i>
+                        <h4>100% Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veritatis iusto Quaerat, veritatis iusto.</p>
+                    </div><!-- End feat -->
+                </div><!-- End col-lg-3 -->
+                <div class="col-lg-3">
+                    <div class="feat">
+                        <i class="far fa-thumbs-up"></i>
+                        <h4>Retina Ready</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veritatis iusto Quaerat, veritatis iusto.</p>
+                    </div><!-- End feat -->
+                </div><!-- End col-lg-3 -->
+                <div class="col-lg-3">
+                    <div class="feat">
+                        <i class="far fa-eye"></i>
+                        <h4>Awesome Display</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veritatis iusto Quaerat, veritatis iusto.</p>
+                    </div><!-- End feat -->
+                </div><!-- End col-lg-3 -->
+                <div class="col-lg-3">
+                    <div class="feat">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h4>Well Documented</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veritatis iusto Quaerat, veritatis iusto.</p>
+                    </div><!-- End feat -->
+                </div><!-- End col-lg-3 -->
+            </div><!-- End row -->
+        </div><!--End container -->
+    </section>
+    <!--End Section Features-->
+    <!--Start Section Testimonials-->
+    <section class="testimonials text-center">
+        <div class="container">
+            <h2>What Our Clients Say ?</h2>
+            <!-- Start Testimonials Carousel -->
+            <div id="MySlide-Testimonials" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veritatis iusto Quaerat, veritatis iusto.</p>
+                        <span>Saif Abidi</span>
+                    </div><!-- End carousel-item -->
+                    <div class="carousel-item">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veritatis iusto Quaerat, veritatis iusto.</p>
+                        <span>Saif Abidi</span>
+                    </div><!-- End carousel-item -->
+                    <div class="carousel-item">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veritatis iusto Quaerat, veritatis iusto.</p>
+                        <span>Saif Abidi</span>
+                    </div><!-- End carousel-item -->
+                    <div class="carousel-item">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, veritatis iusto Quaerat, veritatis iusto.</p>
+                        <span>Saif Abidi</span>
+                    </div><!-- End carousel-item -->
+                </div><!-- End carousel-inner -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#MySlide-Testimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                        <img src="images/testimonials/avatar_01.jpg" alt="saif">
+                    </button>
+                    <button type="button" data-bs-target="#MySlide-Testimonials" data-bs-slide-to="1" aria-label="Slide 2">
+                        <img src="images/testimonials/avatar_02.jpg" alt="amira">
+                    </button>
+                    <button type="button" data-bs-target="#MySlide-Testimonials" data-bs-slide-to="2" aria-label="Slide 3">
+                        <img src="images/testimonials/avatar_03.jpg" alt="amine">
+                    </button>
+                    <button type="button" data-bs-target="#MySlide-Testimonials" data-bs-slide-to="3" aria-label="Slide 3">
+                        <img src="images/testimonials/avatar_04.jpg" alt="azouz">
+                    </button>
+                </div><!-- End carousel-indicators -->
+            </div><!-- End Div Carousel -->
+            <!-- End Testimonials Carousel --> 
+        </div><!--End container -->       
+    </section>
+    <!--End Section Testimonials-->
+    <!--Start Section Price Table-->
+    <section class="price-table text-center">
+        <div class="container">
+            <h2>Our Amazing Price</h2>
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="price-box  wow fadeInUp" data-wow-duration="4s" data-wow-offset="350">
+                        <h2 class="text-primary">Plan #1</h2>
+                        <p class="d-block mx-auto">40$</p>
+                        <ul class="list-unstyled">
+                            <li>Space : 30G</li>
+                            <li>Emails : 20</li>
+                            <li>Ips: 2 Ip </li>
+                            <li>Databases: 10</li>
+                            <li>Ftp Accounts: 5</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div><!-- End price-box -->
+                </div><!-- End Col-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="price-box wow fadeInDown" data-wow-duration="4s" data-wow-offset="350">
+                        <h2 class="text-info">Plan #2</h2>
+                        <p class="d-block mx-auto">60$</p>
+                        <ul class="list-unstyled">
+                            <li>Space : 40G</li>
+                            <li>Emails : 20</li>
+                            <li>Ips: 3 Ip </li>
+                            <li>Databases: 10</li>
+                            <li>Ftp Accounts: 5</li>
+                        </ul>
+                        <a href="#" class="btn btn-info">Order Now</a>
+                    </div><!-- End price-box -->
+                </div><!-- End Col-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="price-box wow fadeInUp" data-wow-duration="4s" data-wow-offset="350">
+                        <h2 class="text-danger">Plan #3</h2>
+                        <p class="d-block mx-auto">80$</p>
+                        <ul class="list-unstyled">
+                            <li>Space : 90G</li>
+                            <li>Emails : 30</li>
+                            <li>Ips: 5 Ip </li>
+                            <li>Databases: 50</li>
+                            <li>Ftp Accounts: 5</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger">Order Now</a>
+                    </div><!-- End price-box -->
+                </div><!-- End Col-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="price-box wow fadeInDown" data-wow-duration="4s" data-wow-offset="350">
+                        <h2 class="text-success">Plan #4</h2>
+                        <p class="d-block mx-auto">120$</p>
+                        <ul class="list-unstyled">
+                            <li>Space : 100G</li>
+                            <li>Emails : 70</li>
+                            <li>Ips: 2 Ip </li>
+                            <li>Databases: 15</li>
+                            <li>Ftp Accounts: 5</li>
+                        </ul>
+                        <a href="#" class="btn btn-success">Order Now</a>
+                    </div><!-- End price-box -->
+                </div><!-- End Col-->
+                
+            </div><!-- End Row -->
+        </div><!--End container -->
+    </section>
+    <!--End Section Price Table-->
+    <!--Start Section Our Team-->
+    <div class="our-team text-center">
+        <div class="team-overlay">
+            <div class="container">
+                <h2>Meet Our Awesome Team</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="person">
+                            <img class="rounded-circle" src="images//Team/chris.jpg" alt="chris">
+                            <h3>Chris</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                            <i class="fab fa-youtube-square fa-2x"></i>
+                            <i class="fab fa-google-plus-square fa-2x"></i>
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </div><!-- End Person -->
+                    </div><!-- End Col -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="person">
+                            <img class="rounded-circle" src="images//Team/leah.jpg" alt="leah">
+                            <h3>leah</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                            <i class="fab fa-youtube-square fa-2x"></i>
+                            <i class="fab fa-google-plus-square fa-2x"></i>
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </div><!-- End Person -->
+                    </div><!-- End Col -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="person">
+                            <img class="rounded-circle" src="images//Team/marissa.jpg" alt="steve">
+                            <h3>Steve</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                            <i class="fab fa-youtube-square fa-2x"></i>
+                            <i class="fab fa-google-plus-square fa-2x"></i>
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </div><!-- End Person -->
+                    </div><!-- End Col -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="person">
+                            <img class="rounded-circle" src="images//Team/steve.jpg" alt="marissa">
+                            <h3>Marissa</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                            <i class="fab fa-youtube-square fa-2x"></i>
+                            <i class="fab fa-google-plus-square fa-2x"></i>
+                            <i class="fab fa-instagram-square fa-2x"></i>
+                        </div><!-- End Person -->
+                    </div><!-- End Col -->
+                </div><!-- End Row -->
+            </div><!--End container -->
+        </div><!-- End Team Overlay -->
+    </div>
+    <!--End Section Our Team-->
+    <!--Start Section Subscribe-->
+    <section class="subscribe text-center">
+        <div class="container">
+            <h2>Keep In Touch</h2>
+            <p class="lead">Sign Up For Newsletter</p>
+            <form class="row justify-content-center">
+                <div class="col-lg-4">
+                    <input class="form-control" type="text">
+                </div>
+                <div class="col-lg-2">
+                    <button class="btn btn-danger form-control">Subscribe</button>
+                </div>
+            </form><!-- End Form -->
+        </div><!--End container -->
+    </section>
+    <!--End Section Subscribe-->
+    <!--Start Section Statistics-->
+    <section class="statistics text-center">
+        <div class="statistics-overlay">
+            <div class="container">
+                <h2>Our Main Statistics</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="stats">
+                            <i class="fas fa-users fa-5x"></i>
+                            <p>1,230</p>
+                            <span>Satisfied Users</span>
+
+                        </div><!-- End Stats -->
+                    </div><!-- End Col -->
+                    <div class="col-sm-6 col-md-3">
+                        <div class="stats">
+                            <i class="fas fa-comments fa-5x"></i>
+                            <p>5,025</p>
+                            <span>Posted Comments</span>
+                            
+                        </div><!-- End Stats -->
+                    </div><!-- End Col -->
+                    <div class="col-sm-6 col-md-3">
+                        <div class="stats">
+                            <i class="fas fa-suitcase fa-5x"></i>
+                            <p>1,200</p>
+                            <span> Project Done</span>
+                            
+                        </div><!-- End Stats -->
+                    </div><!-- End Col -->
+                    <div class="col-sm-6 col-md-3">
+                        <div class="stats">
+                            <i class="fas fa-info-circle fa-5x"></i>
+                            <p>9,8560</p>
+                            <span>Tickets Archieved</span>
+                            
+                        </div><!-- End Stats -->
+                    </div><!-- End Col -->
+                </div><!-- End Row -->
+            </div><!--End container -->
+        </div><!-- End statistics-overlay -->
+    </section>
+    <!--End Section Statistics-->
+    <!--Start Section Skills-->
+    <section class="skills">
+        <div class="container">
+            <h2 class="text-center">Our Skills</h2>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="skills-progress">
+                        <div class="progress">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                  HTml5 / Css3 
+                            </div><!-- End Progress Bar-->
+                        </div><!-- End progress -->
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                  PHP / MySql
+                            </div><!-- End Progress Bar-->
+                        </div><!-- End progress -->
+                        <div class="progress">
+                            <div class="progress-bar bg-worning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                  Java / JQuery 
+                            </div><!-- End Progress Bar-->
+                        </div><!-- End progress -->
+                        <div class="progress">
+                            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                  Wordpress
+                            </div><!-- End Progress Bar-->
+                        </div><!-- End progress -->
+                    </div><!-- End skills progress -->
+                </div><!-- End Col md 5 -->
+
+                <div class="col-md-6 offset-md-1">
+                    <div class="skills-info">
+                        <h3>About The Team</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, modi.</p>
+                        <button type="button" class="btn btn-primary"> Talk With A Professional</button>
+                    </div><!-- End skills info -->
+                </div><!-- End Col md 6 offset-md-1 -->
+
+            </div><!-- End Row -->
+        </div><!-- End Container -->
+    </section>
+    <!--End Section Skills-->
+    <!--Start Section Contact Us-->
+    <section class="contact-us text-center wow slideInLeft" data-wow-offset="250">
+        <div class="Contact-overlay">
+            <div class="container">
+                    <i class="fas fa-sms fa-5x"></i>
+                    <h2>Contact Us</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet.</p>
+                    <!-- Start Contact Form -->
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="form-group input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Phone">
+                                </div>
+                            </div><!-- End Col -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control input-group-lg" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-outline-danger btn-lg d-grid w-100">Contact Us</button>
+                            </div><!-- End Col -->
+                        </div><!-- End Row -->
+                    </form>
+                    <!-- End Contact Form -->
+            </div><!-- End Container -->
+        </div><!-- End Contact-overlay -->
+    </section>
+    <!--End Section Contact Us-->
+    <!--Start Section Our Clients-->
+    <div class="our-clients text-center">
+        <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-2">
+                        <img src="images/Clients/bbc.png" class="img-responsive center-block" alt="Logo BBC">
+                    </div><!-- End Col -->
+                    <div class="col-sm-4 col-md-2">
+                        <img src="images/Clients/cnn.png"  class="img-responsive center-block" alt="Logo CNN">
+                    </div><!-- End Col -->
+                    <div class="col-sm-4 col-md-2">
+                        <img src="images/Clients/wired.png" class="img-responsive center-block" alt="Logo Wired">
+                    </div><!-- End Col -->
+                    <div class="col-sm-4 col-md-2">
+                        <img src="images/Clients/forbes.png" class="img-responsive center-block" alt="Logo Forbes">
+                    </div><!-- End Col -->
+                    <div class="col-sm-4 col-md-2">
+                        <img src="images/Clients/techradar.png" class="img-responsive center-block" alt="Logo TechRadar">
+                    </div><!-- End Col -->
+                    <div class="col-sm-4 col-md-2">
+                        <img src="images/Clients/wsj.png" class="img-responsive center-block" alt="Logo WSJ">
+                    </div><!-- End Col -->
+                </div><!-- End Row -->
+        </div><!-- End Container -->
+    </div>
+    <!--End Section Our Clients-->
+    <!-- Start Section Ultimate Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled three-columns">
+                        <li>Home</li>
+                        <li>Design</li>
+                        <li>About</li>
+                        <li>Company</li>
+                        <li>Code</li>
+                        <li>Home</li>
+                        <li>Design</li>
+                        <li>About</li>
+                        <li>Company</li>
+                    </ul>
+                    <ul class="list-unstyled social-list">
+                        <li><img src="images/bookmarks/facebook.png" alt="Facebook"></li>
+                        <li><img src="images/bookmarks/gplus.png" alt="Google Plus"></li>
+                        <li><img src="images/bookmarks/twitter.png" alt="Twitter"></li>
+                        <li><img src="images/bookmarks/pinterest.png" alt="Pinterest"></li>
+                        <li><img src="images/bookmarks/rss.png" alt="Rss"></li>
+                        <li><img src="images/bookmarks/email.png" alt="Email"></li>
+                    </ul>
+                </div><!-- End Col -->
+                <div class="col-md-6 col-lg-4">
+                    <h3>Latest Articles</h3>
+                    <div class="media d-flex align-items-center">
+                        <div class="media-object flex-shrink-0">
+                            <a href="#">
+                                <img src="images/articles/01.jpg" alt="image">
+                            </a>
+                        </div><!-- End media-object -->
+                        <div class=" media body flex-grow-1 ms-3">
+                            <h5>Programing</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div><!-- End media body -->
+                    </div><!-- End media-->
+                    <div class="media d-flex align-items-center">
+                        <div class="media-object flex-shrink-0">
+                            <a href="#">
+                                <img src="images/articles/02.jpg" alt="image">
+                            </a>
+                        </div><!-- End media-object -->
+                        <div class=" media body flex-grow-1 ms-3">
+                            <h5>Coding</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div><!-- End media body -->
+                    </div><!-- End media-->
+                    <div class="media d-flex align-items-center">
+                        <div class="media-object flex-shrink-0">
+                            <a href="#">
+                                <img src="images/articles/03.jpg" alt="image">
+                            </a>
+                        </div><!-- End media-object -->
+                        <div class=" media body flex-grow-1 ms-3">
+                            <h5>Web Design</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div><!-- End media body -->
+                    </div><!-- End media-->
+                </div><!-- End Col -->
+                <div class="col-md-12 col-lg-4">
+                    <div class="Our-Work">
+                        <h3>Our Awesome Work</h3>
+                        <img class="img-thumbnail" src="images/work/01.jpg" alt="our work">
+                        <img class="img-thumbnail" src="images/work/02.jpg" alt="our work">
+                        <img class="img-thumbnail" src="images/work/03.jpg" alt="our work">
+                        <img class="img-thumbnail" src="images/work/04.jpg" alt="our work">
+                    </div><!-- End Our Work -->
+                </div><!-- End Col -->
+            </div><!-- End Row -->
+        </div><!-- End Container -->
+        <div class=" Copyright text-center">
+            Copyright &copy; 2021 <span>Saif Abidi</span>
+        </div><!-- End Copyright -->
+    </section>
+    <!--End Section Ultimate Footer-->
+    <!--Start Scroll To Top--> 
+    <div id="scroll-top">
+        <i class="fas fa-angle-double-up fa-2x"></i>
+    </div>
+    <!--End Scroll To Top-->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init();</script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+</body>
+</html>

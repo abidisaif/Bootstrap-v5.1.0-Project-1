@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Style Page About -->
+    <link rel="stylesheet" href="css/style-page-faq.css">
+    <!-- Render All Element Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Média Queries -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- Défault Color Théme -->
+    <link rel="stylesheet" href="css/default_color_theme.css">
+</head>
+<body>
+    <!-- Start Section Tool Box --> 
+    <section class="option-box">
+        <div class="color-option">
+            <h4>Color Option</h4>
+            <ul class="list-unstyled">
+                <li data-value="css/default_color_theme.css"></li>
+                <li data-value="css/purple_theme.css"></li>
+                <li data-value="css/blue_theme.css"></li>
+                <li data-value="css/yellow_theme.css"></li>
+            </ul>
+        </div><!-- End Color Box -->
+        <i class="fas fa-cogs fa-2x gear-check"></i>
+    </section>
+    <!-- End Section Tool Box -->
+    <!--Start Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Saif
+              <span>Abidi</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#OurNavbar" aria-controls="OurNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="OurNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Web Designer</a></li>
+                        <li><a class="dropdown-item" href="#">Web Developpment</a></li>
+                        <li><a class="dropdown-item" href="#">Seo</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul><!--End ul-->
+          </div><!--End collapse-->
+        </div><!--End Container-->
+    </nav><!--End Nav-->
+    <!--End Navbar-->
+    <!-- Start Breadcrump -->
+    <nav class="breadcrumb-holder" aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+            </ol>
+        </div>
+    </nav>
+    <!--End Breadcrumb-->
+    <!--Start FAQ Intro-->     
+    <section class="faq text-center">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <p class="lead">Here You Will Find All Questions You Are Searching For And The Full Knowledgebase</p>
+        </div><!--End Container-->
+    </section>
+    <!--End FAQ Intro-->
+    <!--Start FAQ Accordion-->
+    <section class="faq-questions">
+        <div class="container">
+            <div class="accordion" id="myaccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         Qustion 1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                        This is the first item's accordion body.
+                        </div>
+                    </div>
+                </div><!--End Accordion-item-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Question 2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                        This is the second item's accordion body.
+                        </div>
+                    </div>
+                </div><!--End Accordion-item-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Question 3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#myaccordion">
+                        <div class="accordion-body">
+                        This is the third item's accordion body.
+                        </div>
+                    </div>
+                </div><!--End Accordion-item-->
+            </div><!--End Accordion-->
+        </div><!--End Container-->
+    </section>
+    <!--End FAQ Accordion-->
+    <!--Start Section Ultimate Footer-->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled three-columns">
+                        <li>Home</li>
+                        <li>Design</li>
+                        <li>About</li>
+                        <li>Company</li>
+                        <li>Code</li>
+                        <li>Home</li>
+                        <li>Design</li>
+                        <li>About</li>
+                        <li>Company</li>
+                    </ul>
+                    <ul class="list-unstyled social-list">
+                        <li><img src="images/bookmarks/facebook.png" alt="Facebook"></li>
+                        <li><img src="images/bookmarks/gplus.png" alt="Google Plus"></li>
+                        <li><img src="images/bookmarks/twitter.png" alt="Twitter"></li>
+                        <li><img src="images/bookmarks/pinterest.png" alt="Pinterest"></li>
+                        <li><img src="images/bookmarks/rss.png" alt="Rss"></li>
+                        <li><img src="images/bookmarks/email.png" alt="Email"></li>
+                    </ul>
+                </div><!-- End Col -->
+                <div class="col-md-6 col-lg-4">
+                    <h3>Latest Articles</h3>
+                    <div class="media d-flex align-items-center">
+                        <div class="media-object flex-shrink-0">
+                            <a href="#">
+                                <img src="images/articles/01.jpg" alt="image">
+                            </a>
+                        </div><!-- End media-object -->
+                        <div class=" media body flex-grow-1 ms-3">
+                            <h5>Programing</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div><!-- End media body -->
+                    </div><!-- End media-->
+                    <div class="media d-flex align-items-center">
+                        <div class="media-object flex-shrink-0">
+                            <a href="#">
+                                <img src="images/articles/02.jpg" alt="image">
+                            </a>
+                        </div><!-- End media-object -->
+                        <div class=" media body flex-grow-1 ms-3">
+                            <h5>Coding</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div><!-- End media body -->
+                    </div><!-- End media-->
+                    <div class="media d-flex align-items-center">
+                        <div class="media-object flex-shrink-0">
+                            <a href="#">
+                                <img src="images/articles/03.jpg" alt="image">
+                            </a>
+                        </div><!-- End media-object -->
+                        <div class=" media body flex-grow-1 ms-3">
+                            <h5>Web Design</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div><!-- End media body -->
+                    </div><!-- End media-->
+                </div><!-- End Col -->
+                <div class="col-md-12 col-lg-4">
+                    <div class="Our-Work">
+                        <h3>Our Awesome Work</h3>
+                        <img class="img-thumbnail" src="images/work/01.jpg" alt="our work">
+                        <img class="img-thumbnail" src="images/work/02.jpg" alt="our work">
+                        <img class="img-thumbnail" src="images/work/03.jpg" alt="our work">
+                        <img class="img-thumbnail" src="images/work/04.jpg" alt="our work">
+                    </div><!-- End Our Work -->
+                </div><!-- End Col -->
+            </div><!-- End Row -->
+        </div><!-- End Container -->
+        <div class=" Copyright text-center">
+            Copyright &copy; 2021 <span>Saif Abidi</span>
+        </div><!-- End Copyright -->
+    </section>
+    <!--End Section Ultimate Footer-->
+    <!--Start Scroll To Top--> 
+    <div id="scroll-top">
+        <i class="fas fa-angle-double-up fa-2x"></i>
+    </div>
+    <!--End Scroll To Top-->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+</body>
+</html>
