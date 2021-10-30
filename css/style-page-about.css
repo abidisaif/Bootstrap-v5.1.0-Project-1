@@ -1,0 +1,179 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+/* Google Fonts */
+/* Main rules */
+h1,h2,h3,h4,h5 {
+    font-family: 'Source Code Pro', monospace;
+}
+/* Main rules */
+/* Start Section Tool Box */
+.option-box {
+    position:fixed;
+    top:100px;
+    left:0;
+    z-index:9999;
+}
+.option-box .color-option {
+    float:left;
+    background:#333;
+    color:#fff;
+    padding:10px;
+    width:200px;
+    display: none;
+}
+.option-box .color-option ul li {
+    width:20px;
+    height:20px;
+    display:inline-block;
+    margin-right:3px;
+    cursor:pointer;
+}
+.option-box .gear-check {
+    padding:5px;
+    color:#FFF;
+    cursor:pointer;
+}
+/* End Section Tool Box */
+/* Start Navbar */
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+}
+.navbar-nav .dropdown-menu {
+    background-color: #333;
+    min-width: 180px;
+}
+.dropdown-menu .dropdown-item {
+    color: #FFF;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease-in-out;
+    -moz-transition: padding 0.5s ease-in-out;
+    -o-transition: padding 0.5s ease-in-out;
+    transition: padding 0.5s ease-in-out;
+}
+.dropdown-menu .dropdown-item:hover {
+    padding-left: 30px;
+}
+.dropdown-menu .dropdown-item:hover:before {
+    font-family: 'Font Awesome 5 free';
+    content: "\f0da";
+    font-weight: 900;
+    margin-right: 7px;
+}
+/* End Navbar */
+/* Start breadcrumb */
+.breadcrumb-holder {
+    background-color: #f5f5f5f5;
+}
+.breadcrumb {
+    padding: 10px 0;
+    margin: 0
+}
+/* End breadcrumb */
+/* Start About Us */
+.about-us {
+    padding: 70px 0
+}
+.about-us h1 {
+    font-size: 62px
+}
+/* End About Us */
+/* Start about-features */
+.about-features {
+    padding: 0 0 70px
+}
+.about-features h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px
+}
+.about-features p {
+    margin-bottom: 20px
+}
+/* End about-features */
+/* Start about-ceo */
+.about-ceo {
+    background-color:#EEE;
+    padding-top: 40px
+}
+.about-ceo h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.about-ceo .lead {
+    line-height: 1.8
+}
+.about-ceo .btn-primary {
+    background-color:#333;
+    border-color:#333;
+    display: inline-block;
+    margin-bottom: 30px
+}
+/* End about-ceo */
+/* Start Ultimate Footer */
+.footer {
+    background-color: #111;
+    color: #AAA;
+    padding-top: 10px;
+}
+.footer h3 {
+   color: #0895D1;
+   letter-spacing: 4px;
+   margin: 30px 0 20px;
+}
+.footer .three-columns {
+    overflow: hidden;
+}
+.footer .three-columns li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+.footer .social-list {
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+.footer .social-list li {
+    float: left;
+    margin-right: 3px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.footer .social-list li:hover {
+   opacity: 1;
+}
+.footer .Our-Work .img-thumbnail {
+    background-color: rgba(2, 2, 2, 0.2);
+    border: 1px solid #000;
+    margin-bottom: 5px;
+}
+.footer .Copyright {
+    background-color: #333;
+    color: #FFF;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+/* End Ultimate Footer */
+/* Start Scroll To Top */
+#scroll-top {
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+    color:#DDD;
+    background-color:#272727;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    display: none;
+    cursor:pointer
+}
+#scroll-top:hover {
+    background-color:#444;
+}
+/* End Scroll To Top */

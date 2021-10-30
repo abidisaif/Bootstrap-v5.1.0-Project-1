@@ -1,0 +1,26 @@
+/**** Start Blue Theme ****/
+.dropdown-menu .dropdown-item:hover,
+.carousel-indicators .active,
+.option-box .gear-check {
+    background-color: #009AFF;
+}
+.navbar-nav .dropdown-menu {
+    border-top: 2px solid #009AFF;
+}
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-brand span,
+.Features .feat i,
+.testimonials .carousel-inner .carousel-item span,
+.about h1 span,
+.statistics .statistics-overlay .stats .fas,
+.footer .Copyright span {
+    color: #009AFF;
+}
+.carousel-indicators [data-bs-target],
+.testimonials .carousel-indicators button.active,
+.price-table .price-box:hover p,
+.option-box .color-option {
+    border: 1px solid #009AFF;  
+}
+/**** End Blue Theme ****/

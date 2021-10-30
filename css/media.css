@@ -1,0 +1,7 @@
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.99px)
+{
+    .footer .Our-Work {
+        text-align: center;
+    } 
+}
